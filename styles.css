@@ -1,0 +1,44 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: white;
+}
+p {
+  color: black;
+}
+.header {
+  background-color: #3366ff;
+  text-align: center;
+  padding: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

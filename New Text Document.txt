@@ -1,0 +1,6 @@
+navigacija +
+link -
+slike u jednom redu +/-
+povecavanje fonta -
+baza podataka -
+slider -
